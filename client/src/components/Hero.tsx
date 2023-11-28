@@ -1,4 +1,4 @@
-import ShippingLogo from "../assets/global-shipping-logo.svg";
+import ShippingLogo from "../assets/global-shipping.svg";
 
 export default function Hero() {
 	return (
@@ -12,11 +12,18 @@ export default function Hero() {
 				is just as good, for a fraction of the price.
 			</p>
 
-			<button className="bg-[#E4F0F2] w-auto text-base px-6 py-3 mt-8 rounded-lg font-bold">
+			<button className="bg-[#E4F0F2] w-auto px-6 py-3 mt-6 rounded-lg font-bold">
 				Browse our Products
 			</button>
 
-			<img className="mt-4" src={ShippingLogo} alt="Global Shipping" />
+			<div className="text-sm flex items-center rounded-lg border border-black w-auto h-14 mt-7 pl-6 pr-4">
+				<img
+					className="h-20  ml-[-32px]"
+					src={ShippingLogo}
+					alt="Shipping Logo"
+				/>
+				<p>Serving customers worldwide!</p>
+			</div>
 		</div>
 	);
 }
