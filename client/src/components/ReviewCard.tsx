@@ -10,7 +10,7 @@ interface Props {
 
 export default function ReviewCard(props: Props) {
 	return (
-		<div className="flex flex-col items-center justify-center text-center w-[200px] border border-black bg-white rounded-lg pt-[22px] pb-[48px] px-6 gap-3 shadow-xl">
+		<div className="flex flex-col items-center justify-center text-center w-[200px] h-[470px] border border-black bg-white rounded-lg pt-[22px] pb-[48px] px-6 gap-3 shadow-xl">
 			<img src={props.image} alt="Portrait" />
 			<img src={Star} alt="Stars" />
 			<p>{props.message}</p>
