@@ -5,11 +5,11 @@ const navlinks = [
 	{ title: "contact", path: "/contact" },
 ];
 
-export default function Navigation() {
+export default function FooterNav() {
 	return (
-		<ul className="hidden md:flex items-center uppercase">
+		<ul className="flex flex-wrap items-center uppercase justify-center">
 			{navlinks.map(({ title, path }) => (
-				<li key={path} className="px-4 cursor-pointer">
+				<li key={path} className="px-6 cursor-pointer text-xs">
 					<a className="group transition duration-300">
 						{title}
 						<span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[1px] bg-black"></span>

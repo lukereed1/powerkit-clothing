@@ -1,7 +1,13 @@
 import { AiOutlineClose } from "react-icons/ai";
 
+const navlinks = [
+	{ title: "home", path: "/home" },
+	{ title: "products", path: "/products" },
+	{ title: "reviews", path: "/reviews" },
+	{ title: "contact", path: "/contact" },
+];
+
 interface Props {
-	navlinks: Array<{ title: string; path: string }>;
 	handlePopoutMenu: () => void;
 }
 
@@ -15,7 +21,7 @@ export default function PopoutMenu(props: Props) {
 			</div>
 
 			<ul className="uppercase flex flex-col items-center">
-				{props.navlinks.map(({ title, path }) => (
+				{navlinks.map(({ title, path }) => (
 					<li key={path} className="px-4 cursor-pointer pb-5">
 						<a className="group transition duration-300">
 							{title}

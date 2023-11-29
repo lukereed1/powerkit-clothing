@@ -4,13 +4,6 @@ import { AiOutlineMenu } from "react-icons/ai";
 import PopoutMenu from "./PopoutMenu";
 import { useState } from "react";
 
-const navlinks = [
-	{ title: "home", path: "/home" },
-	{ title: "products", path: "/products" },
-	{ title: "reviews", path: "/reviews" },
-	{ title: "contact", path: "/contact" },
-];
-
 export default function Header() {
 	const [popoutOpen, setPopoutOpen] = useState(false);
 
@@ -25,10 +18,10 @@ export default function Header() {
 					<img className="h-14" src={Logo} alt="powerkit logo" />
 				</button>
 
-				<Navigation navlinks={navlinks} />
+				<Navigation />
 
 				{popoutOpen ? (
-					<PopoutMenu handlePopoutMenu={handlePopoutMenu} navlinks={navlinks} />
+					<PopoutMenu handlePopoutMenu={handlePopoutMenu} />
 				) : (
 					<button
 						className="block md:hidden"
