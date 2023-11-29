@@ -21,7 +21,9 @@ export default function Header() {
 	return (
 		<div className="bg-[#E4F0F2]">
 			<div className="flex justify-between items-center max-w-[1240px] m-auto px-8 py-6">
-				<img className="h-14" src={Logo} alt="powerkit logo" />
+				<button>
+					<img className="h-14" src={Logo} alt="powerkit logo" />
+				</button>
 
 				<Navigation navlinks={navlinks} />
 
