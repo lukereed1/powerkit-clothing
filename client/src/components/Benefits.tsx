@@ -3,7 +3,7 @@ import WeightLifter from "../assets/weightlifting.jpg";
 
 export default function Benefits() {
 	return (
-		<section className="flex flex-col items-center text-center mt-14 px-[30px] lg:px-[60px]">
+		<section className="flex flex-col items-center text-center mt-14 px-[30px] lg:px-[60px] lg:max-w-[1024px] mx-auto">
 			<h1 className="text-[32px] lg:text-[48px] mb-2">
 				The best quality AND the most affordable
 			</h1>
@@ -13,7 +13,7 @@ export default function Benefits() {
 			</p>
 			<CallToActionButton>Shop Now</CallToActionButton>
 			<img
-				className="rounded-[20px] mt-9 max-w-[660px] w-full"
+				className="rounded-[20px] mt-9 max-w-[550px] lg:max-w-[660px] w-full"
 				src={WeightLifter}
 				alt="Weightlifter"
 			/>

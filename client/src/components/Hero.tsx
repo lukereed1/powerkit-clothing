@@ -1,11 +1,12 @@
 import ShippingLogo from "../assets/global-shipping.svg";
 import CallToActionButton from "./CallToActionButton";
 import { GoArrowRight } from "react-icons/go";
+import ProductShowcase from "./ProductShowcase";
 
 export default function Hero() {
 	return (
-		<section className="flex justify-center lg:max-w-[1024px] mx-auto">
-			<div className="flex flex-col items-center justify-center text-center mt-8 mx-auto px-[30px] lg:px-[60px] lg:text-left lg:items-start">
+		<section className="flex lg:max-w-[1024px] xl:max-w-[1440px] mx-auto px-[30px] lg:px-[60px] xl:px-[140px] lg:pt-[32px] mt-8 items-center gap-[100px]">
+			<div className="flex flex-col items-center text-center mx-auto lg:text-left lg:items-start xl:flex-1">
 				<h1 className="text-[32px] lg:text-[52px]">
 					Quality sporting apparel without the price tag
 				</h1>
@@ -15,7 +16,7 @@ export default function Hero() {
 					apparel is just as good, for a fraction of the price.
 				</p>
 
-				<div className="flex gap-8 lg:mt-5">
+				<div className="flex gap-8 lg:mt-4">
 					<CallToActionButton>Browse our Products</CallToActionButton>
 
 					<button className="hidden lg:flex items-center text-[20px] gap-1 group">
@@ -35,6 +36,9 @@ export default function Hero() {
 					/>
 					<p>Serving customers worldwide!</p>
 				</div>
+			</div>
+			<div className="hidden xl:flex flex-1 justify-center">
+				<ProductShowcase isDesktop={true} />
 			</div>
 		</section>
 	);

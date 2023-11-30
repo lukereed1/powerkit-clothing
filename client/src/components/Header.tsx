@@ -13,7 +13,7 @@ export default function Header() {
 
 	return (
 		<div className="bg-[#E4F0F2]">
-			<div className="flex justify-between items-center max-w-[1240px] m-auto px-8 py-6">
+			<div className="flex justify-between items-center max-w-[1440px] m-auto px-8 lg:px-[60px] xl:px-[140px] py-6">
 				<button>
 					<img className="h-14" src={Logo} alt="powerkit logo" />
 				</button>
