@@ -37,7 +37,7 @@ export default function Hero() {
 					<p>Serving customers worldwide!</p>
 				</div>
 			</div>
-			<div className="hidden xl:flex flex-1 justify-center">
+			<div className="hidden xl:flex flex-1 justify-end">
 				<ProductShowcase isDesktop={true} />
 			</div>
 		</section>

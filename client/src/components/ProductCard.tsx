@@ -12,6 +12,7 @@ export default function ProductCard({ image, name, price, isTall }: Props) {
 				backgroundImage: `url(${image})`,
 				backgroundSize: "cover",
 				backgroundPosition: "center bottom",
+				backgroundColor: "rgba(0, 0, 0, 0.9)",
 			}}
 			className={`h-[260px] w-[240px] lg:w-[260px] lg:h-[290px] xl:w-[235px] rounded-[20px] flex justify-center items-end shadow-2xl ${
 				isTall ? "xl:h-[516px]" : "xl:h-[250px]"

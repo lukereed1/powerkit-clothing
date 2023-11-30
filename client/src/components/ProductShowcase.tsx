@@ -17,7 +17,7 @@ export default function ProductShowcase({ isDesktop }: Props) {
 	return (
 		<div>
 			{isDesktop ? (
-				<div className="flex gap-4 justify-center items-center">
+				<div className="flex gap-4 justify-center items-center pt-6">
 					<div className="flex flex-col gap-4">
 						<ProductCard
 							isTall={displayProducts[0].isTall}
