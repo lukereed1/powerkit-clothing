@@ -11,7 +11,7 @@ const displayProducts = [
 
 export default function ProductShowcase() {
 	return (
-		<div className="flex items-center mt-12 gap-7 flex-wrap justify-center">
+		<div className="flex items-center mt-12 gap-7 lg:gap-12 flex-wrap justify-center lg:px-[60px]">
 			{displayProducts.map(({ name, price, image }) => (
 				<ProductCard name={name} price={price} image={image} />
 			))}

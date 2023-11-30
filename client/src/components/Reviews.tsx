@@ -37,7 +37,9 @@ export default function Reviews() {
 		<section className="mt-20">
 			<div className="h-[170px] bg-[#E4F0F2]"></div>
 			<div className="mt-[-170px] px-[30px] flex flex-col items-center">
-				<h1 className="text-[32px] mt-6 text-center">What People Say</h1>
+				<h1 className="text-[32px] lg:text-[48px] mt-6 text-center">
+					What People Say
+				</h1>
 				<div className="flex flex-col items-center gap-6 my-8 flex-wrap sm:flex-row justify-center">
 					{customerReviews.map(({ author, message, image }) => (
 						<ReviewCard author={author} message={message} image={image} />

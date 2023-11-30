@@ -4,8 +4,10 @@ export default function Features() {
 	return (
 		<section className="mt-16">
 			<div className="h-[170px] bg-[#E4F0F2]"></div>
-			<div className="mt-[-170px] px-[30px]">
-				<h1 className="text-[32px] mt-6 text-center">Why Choose Us</h1>
+			<div className="mt-[-170px] px-[30px] lg:px-[60px]">
+				<h1 className="text-[32px] lg:text-[48px] mt-6 text-center">
+					Why Choose Us
+				</h1>
 				<div className="flex items-center mt-7 gap-9 justify-center flex-wrap">
 					<FeatureCard heading="Innovative Design">
 						Unleash your full potential with our sports clothing featuring
