@@ -8,7 +8,7 @@ import FooterNav from "./FooterNav";
 
 export default function Footer() {
 	return (
-		<div className="bg-[#E4F0F2] flex flex-col gap-4 lg:gap-7 mt-20 py-6">
+		<div className="bg-[#E4F0F2] flex flex-col gap-4 lg:gap-7 mt-20 py-5">
 			<div>
 				<div className="flex justify-between px-[32px] lg:max-w-[1024px] xl:max-w-[1440px] lg:px-[60px] xl:px-[140px] m-auto">
 					<img

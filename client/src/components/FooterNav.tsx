@@ -7,8 +7,8 @@ const navlinks = [
 
 export default function FooterNav() {
 	return (
-		<div className="flex justify-center md:justify-between px-[12px] md:px-[32px] lg:max-w-[1024px] xl:max-w-[1440px] lg:px-[60px] xl:px-[140px] m-auto">
-			<ul className="flex flex-wrap items-center uppercase justify-center gap-6">
+		<div className="flex justify-center md:justify-between px-[12px] md:px-[32px] lg:max-w-[1024px] xl:max-w-[1440px] lg:px-[60px] xl:px-[140px] mx-auto mt-5">
+			<ul className="flex flex-wrap items-center uppercase justify-center gap-10">
 				{navlinks.map(({ title, path }) => (
 					<li key={path} className="cursor-pointer text-xs lg:text-base">
 						<a className="group transition duration-300">
