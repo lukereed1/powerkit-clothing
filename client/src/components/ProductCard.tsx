@@ -14,10 +14,10 @@ export default function ProductCard({ image, name, price, isTall }: Props) {
 				backgroundPosition: "center bottom",
 				backgroundColor: "rgba(0, 0, 0, 0.9)",
 			}}
-			className={`h-[260px] w-[240px] lg:w-[260px] lg:h-[290px] xl:w-[235px] rounded-[20px] flex justify-center items-end shadow-2xl ${
+			className={`h-[260px] w-[240px] lg:w-[260px] lg:h-[290px] xl:w-[235px] rounded-[20px] flex justify-center items-end shadow-2xl  ${
 				isTall ? "xl:h-[516px]" : "xl:h-[250px]"
 			}`}>
-			<button className="flex bg-white px-4 mb-4 gap-16 xl:gap-12 justify-center items-center rounded-[15px] text-sm lg:text-base py-3 lg:mx-4 xl:px-4">
+			<button className="flex bg-white px-4 mb-4 gap-16 xl:gap-12 justify-center items-center rounded-[15px] text-sm lg:text-base py-3 lg:mx-4 xl:px-4 transform transition duration-300 hover:scale-105">
 				<div className="flex flex-col items-start">
 					<p className="font-bold">PowerKit</p>
 					<p className="text-gray-500">{name}</p>

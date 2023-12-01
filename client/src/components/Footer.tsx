@@ -18,15 +18,15 @@ export default function Footer() {
 					/>
 
 					<div className="flex text-3xl lg:text-5xl gap-3">
-						<button>
+						<button className="transform transition duration-300 hover:scale-110">
 							<TiSocialFacebook />
 						</button>
 
-						<button className="pr-1">
+						<button className="pr-1 transform transition duration-300 hover:scale-110">
 							<TiSocialInstagram />
 						</button>
 
-						<button>
+						<button className="transform transition duration-300 hover:scale-110">
 							<TiSocialTwitter />
 						</button>
 					</div>
