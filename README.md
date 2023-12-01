@@ -1,1 +1,1 @@
-# powerkit-ecommerce-store
+# powerkit-clothing
