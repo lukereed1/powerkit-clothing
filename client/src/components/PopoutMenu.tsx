@@ -13,7 +13,7 @@ interface Props {
 
 export default function PopoutMenu(props: Props) {
 	return (
-		<div className="fixed right-0 top-0 w-[60%] bg-[#E4F0F2] h-full ease-in duration-500">
+		<div className="fixed right-0 top-0 w-[60%] bg-[#E4F0F2] h-full ease-in] z-10">
 			<div className="pl-3 pt-3">
 				<button onClick={() => props.handlePopoutMenu()}>
 					<AiOutlineClose size={30} />
