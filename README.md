@@ -8,6 +8,7 @@ A fake clothing company website, built to practice the process of designing a mo
 
 - TypeScript
 - React
+- TailwindCSS
 
 ## Design Mockups
 
